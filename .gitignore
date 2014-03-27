@@ -14,12 +14,7 @@ inc/
 nytprof.out
 pod2htm*.tmp
 pm_to_blib
-Logger-*
-Logger-*.tar.gz
-gitignore
+DevLog-*
+DevLog-*.tar.gz
 t/*
 Changes
-Makefile.PL
-MANIFEST
-META.yml
-README.pod
