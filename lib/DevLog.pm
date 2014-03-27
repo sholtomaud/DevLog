@@ -17,7 +17,7 @@ Version 0.10
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -42,9 +42,8 @@ Use this module to log development
  
 =head1 EXPORTS
 
-  > log()
-  > log_hash()
-  > dev_log()
+* dev_log()
+* list()
 
 =head1 SUBROUTINES/METHODS
 
