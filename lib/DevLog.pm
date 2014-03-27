@@ -24,7 +24,6 @@ our $VERSION = '0.03';
 Use this module to log development
      
 =cut
-
  
  my $defaultdb_dir = $Bin.'\\db\\';
  my $defaultdb = $defaultdb_dir.'\\Log.db';
