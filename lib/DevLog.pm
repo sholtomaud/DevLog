@@ -7,6 +7,7 @@ use DateTime;
 use FindBin qw($Bin);
 use Env;
 
+
 =head1 DevLog
 
 Custom logger module for development purposes
@@ -25,9 +26,9 @@ Use this module to log a transaction to a database location specified by logpath
 
 Code snippet.
 
-  use Logger;
+  use DevLog;
   
-  my $logger = Logger->new( 
+  my $log = DevLog->new( 
     logpath => $log_path, #required, defaults to current directory of script \\db
     logdb   => $log_db, #required, defaults to 'Log.db'
     date    => $current_date, #defaults to current date
@@ -40,7 +41,7 @@ Code snippet.
     user    => $user_name # defaults to $ENV{'USERNAME'}
   );
 
-  $logger->log;
+  $log->log;
      
 =cut
  
@@ -192,4 +193,4 @@ EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =cut
 
-1; # End of Logger
+1; # End of DevLog
