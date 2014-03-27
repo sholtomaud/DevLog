@@ -9,11 +9,11 @@ use Env;
 
 =head1 DevLog
 
-Custom logger module for development
+Custom logger module for development purposes
 
 =head1 VERSION
 
-Version 0.10
+Version 0.03
 
 =cut
 
@@ -127,29 +127,6 @@ Please report any bugs in the issues wiki.
 You can find documentation for this module with the perldoc command.
 
     perldoc Logger
-
-
-You can also look for information at:
-
-=over 4
-
-=item * RT: CPAN's request tracker (report bugs here)
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Logger>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Logger>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Logger>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Logger/>
-
-=back
 
 
 =head1 ACKNOWLEDGEMENTS
