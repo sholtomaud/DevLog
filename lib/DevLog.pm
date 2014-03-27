@@ -39,12 +39,12 @@ Use this module to log development
  has 'comment' => ( is => 'rw', isa => 'Str'); 
  has 'user' => ( is => 'rw', isa => 'Str', default => $ENV{'USERNAME'} ); 
  
-=head1 EXPORTS
+=head2 EXPORTS
 
 * dev_log()
 * list()
 
-=head1 SUBROUTINES/METHODS
+=head2 SUBROUTINES/METHODS
 
 =head2 dev_log()
   
