@@ -4,7 +4,7 @@ Custom logger module for development purposes
 
 =head1 VERSION
 
-Version 0.03
+Version 0.05
 
 =head1 SYNOPSIS
 
