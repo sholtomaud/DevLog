@@ -50,7 +50,7 @@ Code snippet.
  
  has 'keyword' => ( is => 'rw', isa => 'Str', required => 1); 
  has 'logpath' => ( is => 'rw', isa => 'Str', required => 1, default => $defaultdb_dir);
- has 'logdb' => ( is => 'rw', isa => 'Str', required => 1, default => $defaultdb);  
+ has 'logdb' => ( is => 'rw', isa => 'Str', required => 1, default => 'Log.db');  
  has 'status'  => ( is => 'rw', isa => 'Str'); 
  has 'date'  => ( is => 'rw', isa => 'Num',  default => sub { ((localtime)[5] + 1900 ). (localtime)[4] . (localtime)[3] } ); 
  has 'time'  => ( is => 'rw', isa => 'Num', default => sub { (localtime)[2] . (localtime)[1] . (localtime)[0] }); 
