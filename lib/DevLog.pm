@@ -83,7 +83,7 @@ sub dev_log{
   else{  
     mkdir ($defaultdb_dir) if ( ! -d $defaultdb_dir );
   }  
-  my $db = $self->logdb;
+  my $db = $self->logpath.$self->logdb;;
   my $dbh = DBI->connect(          
       "dbi:SQLite:dbname=$db", 
       "",                          
