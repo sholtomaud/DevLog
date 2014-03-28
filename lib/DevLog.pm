@@ -52,8 +52,8 @@ Code snippet.
  has 'logpath' => ( is => 'rw', isa => 'Str', required => 1, default => $defaultdb_dir);
  has 'logdb' => ( is => 'rw', isa => 'Str', required => 1, default => 'Log.db');  
  has 'status'  => ( is => 'rw', isa => 'Str'); 
- has 'date'  => ( is => 'rw', isa => 'Num',  default => sub { sprintf("%4d%02d%02d", ((localtime)[5] + 1900 ), (localtime)[4] , (localtime)[3] )} ); 
- has 'time'  => ( is => 'rw', isa => 'Num', default => sub { sprintf("%02d%02d%02d",(localtime)[2] , (localtime)[1] , (localtime)[0] )}); 
+ has 'date'  => ( is => 'rw', isa => 'Num',  default => sub { sprintf("%4s%02s%02s", ((localtime)[5] + 1900 ), (localtime)[4]+1 , (localtime)[3] )} ); 
+ has 'time'  => ( is => 'rw', isa => 'Num', default => sub { sprintf("%02s%02s%02s",(localtime)[2] , (localtime)[1] , (localtime)[0] )}); 
  has 'errmsg' => ( is => 'rw', isa => 'Str', required => 1); 
  has 'script' => ( is => 'rw', isa => 'Str'); 
  has 'comment' => ( is => 'rw', isa => 'Str'); 
