@@ -1,0 +1,22 @@
+=head2 Fri Mar 28 10:13:19 2014: C<Module> L<DevLog|DevLog>
+
+=over 4
+
+=item *
+
+C<installed into: C:\\Dev\\DevLog\lib\perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
