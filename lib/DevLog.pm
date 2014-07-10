@@ -74,7 +74,7 @@ Creates a logging database for tracking development of scripts
 
 sub dev_log{
   my $self = shift;
- if ( $defaultdb_dir ne $self->logpath ) {
+  if ( $defaultdb_dir ne $self->logpath ) {
     if ( ! -d $self->logpath ){ 
       mkdir ($self->logpath); 
       print  "Created new development db directory [$self->logpath]\n"; 
@@ -83,7 +83,7 @@ sub dev_log{
   else{  
     mkdir ($defaultdb_dir) if ( ! -d $defaultdb_dir );
   }  
-  my $db = $self->logpath.$self->logdb;;
+  my $db = $self->logpath.$self->logdb;
   my $dbh = DBI->connect(          
       "dbi:SQLite:dbname=$db", 
       "",                          
